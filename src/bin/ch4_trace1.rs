@@ -25,6 +25,7 @@ pub fn main() -> usize {
 
     assert_eq!(0, mmap(start, len, prot));
 
+    println!("Line 28: start = {}", start);
     assert!(None != trace_read(start as *const u8));
     assert_eq!(-1, trace_write(start as *const u8, 0));
 
