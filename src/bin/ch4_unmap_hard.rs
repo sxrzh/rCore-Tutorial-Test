@@ -7,7 +7,7 @@ extern crate user_lib;
 use user_lib::{mmap, munmap, trace_read, trace_write};
 
 /*
-理想结果：输出 Test 04_6 ummap2 OK!
+理想结果：输出 Test 04_ex ummap_hard OK!
 */
 
 #[no_mangle]
